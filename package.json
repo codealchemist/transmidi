@@ -1,0 +1,24 @@
+{
+  "name": "transmidi",
+  "version": "1.0.0",
+  "description": "Translate midi signals",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "clear; node src/index.js"
+  },
+  "bin": {
+    "transmidi": "./cli.js"
+  },
+  "keywords": [
+    "midi",
+    "tool"
+  ],
+  "author": "Alberto Miranda <b3rt.js@gmail.com> (http://albertomiranda.com.ar/)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cli-select": "^1.1.2",
+    "midi": "^2.0.0",
+    "printii": "^1.0.0"
+  }
+}
