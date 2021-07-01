@@ -1,7 +1,7 @@
 {
   "name": "transmidi",
   "version": "1.0.0",
-  "description": "Translate midi signals",
+  "description": "Translate midi messages",
   "main": "src/index.js",
   "scripts": {
     "start": "clear; node src/index.js"
@@ -13,8 +13,19 @@
     "midi",
     "tool"
   ],
-  "author": "Alberto Miranda <b3rt.js@gmail.com> (http://albertomiranda.com.ar/)",
-  "license": "ISC",
+  "author": {
+    "name": "Alberto Miranda",
+    "email": "b3rt.js@gmail.com",
+    "url": "http://albertomiranda.com.ar"
+  },
+  "bugs": {
+    "url": "https://github.com/codealchemist/transmidi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codealchemist/transmidi.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.1",
     "cli-select": "^1.1.2",

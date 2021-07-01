@@ -7,7 +7,7 @@
  
 ```
 
-Translate midi signals
+Translate midi messages
 
 ## Motivation
 
